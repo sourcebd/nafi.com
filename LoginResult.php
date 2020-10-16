@@ -8,7 +8,9 @@ body{background-image: url('G.gif'); background-repeat:no-repeat; background-siz
 h1 {color: yellow}
 </style>
 <body>
+<form action="RegistrationResult.php" method='post'>
 <h1><marquee direction=left>Login Successful! Now you can get access in our Website.</marquee></h1>
-</div>
+
+</form>
 </body>
 </html>
