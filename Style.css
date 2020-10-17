@@ -189,7 +189,7 @@ header .container .col-md-7 p {
 .numbers .rect {
   position: relative;
   z-index: 1;
-  background: white;
+  background: red;
   width: 17rem;
   height: 12rem;
   padding-top: 3.5vmin;
