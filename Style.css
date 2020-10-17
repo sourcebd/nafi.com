@@ -15,8 +15,8 @@ section {
   --Patua: "Patua One", cursive;
   --Lobster: "lobster", cursive;
   --light-black: #2e2c2caf;
-  --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
-  --light-gray: #08b1ff;
+  --bggradient: linear-gradient(90deg, rgba(255,0,86,1) 15%, rgba(115,10,201,1) 39%, rgba(0,14,255,1) 65%, rgba(69,239,252,1) 88%);
+  --light-gray: rgba(255, 255, 255, 0.877);
 }
 
 header a {
@@ -28,7 +28,7 @@ header a {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: #00e9ff;
   min-width: 160px;
   box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -79,7 +79,7 @@ header .row .col-md-5 img {
 }
 
 header {
-  background: #f1f1f1;
+  background: rgb(0, 233, 255);
   /* fallback for old browsers */
   background: var(--bggradient);
 }
