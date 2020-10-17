@@ -189,8 +189,7 @@ header .container .col-md-7 p {
 .numbers .rect {
   position: relative;
   z-index: 1;
-  background: red;
-  color: white;
+  background: white;
   width: 17rem;
   height: 12rem;
   padding-top: 3.5vmin;
@@ -253,6 +252,7 @@ header .container .col-md-7 p {
 
 .card-body .pricing > h1 {
   font-size: 10vmin;
+  background:red;
   padding: 1em 0.5em;
 }
 
