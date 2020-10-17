@@ -61,7 +61,7 @@ header .navbar-brand {
 }
 
 header .nav-link:hover {
-  color: blue;
+  color: yellow;
 }
 
 header .row .col-md-7 {
@@ -190,6 +190,7 @@ header .container .col-md-7 p {
   position: relative;
   z-index: 1;
   background: red;
+  color: yellow;
   width: 17rem;
   height: 12rem;
   padding-top: 3.5vmin;
