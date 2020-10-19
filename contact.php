@@ -1,9 +1,3 @@
-<html>
-    <head></head>
-    <body>
-        
-    </body>
-    
 <?php
 $name = $_POST['name'];
 $visitor_email = $_POST['email'];
@@ -21,4 +15,3 @@ $email_body = "User Name: $name.\n".
               mail($to,$email_subject,$email_body,$headers);
               header("Location: index.html");
               ?>
-              </html>
