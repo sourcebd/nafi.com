@@ -3,7 +3,7 @@ $name = $_POST['name'];
 $visitor_email = $_POST['email'];
 $message = $_POST['message'];
 
-$email_from = 'nafiaiubian17@gmail.com';
+$email_from = "nafiaiubian17@gmail.com";
 $email_subject = "New Form Submission";
 $email_body = "User Name: $name.\n".
               "User Email: $visitor_email.\n".
@@ -13,5 +13,5 @@ $email_body = "User Name: $name.\n".
               $headers = "From: $email_from \r\n";
               $headers = "Reply-To: $visitor_email \r\n";
               mail($to,$email_subject,$email_body,$headers);
-              header("Location: index.html");
+              header("Location: contact.html");
               ?>
