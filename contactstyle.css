@@ -66,7 +66,7 @@ form .submit
 
 form .submit:hover
 {
-    background-color: #f44336;
+    background-color: blue;
     cursor: pointer;
 }
 
