@@ -49,7 +49,7 @@ input
     height: 45px;
 }
 
-form.submit
+form .submit
 {
     background: #ff5722;
     border-color: transparent;
