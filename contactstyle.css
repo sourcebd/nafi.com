@@ -12,12 +12,13 @@ body{
 .contact-title
 {
     margin-top: 100px;
-    color: #00e9ff;
+    color: white;
     text-transform: uppercase;
     transition: all 4s ease-in-out;
 }
 .contact-title h1
 {
+    color: #00e9ff;
     font-size: 32px;
     line-height: 10px;
 }
