@@ -20,7 +20,7 @@ body{
 {
     font-size: 32px;
     line-height: 10px;
-    color: #00e9ff;
+    color: #00e9ff; 
 }
 
 .contact-title h2
@@ -62,5 +62,11 @@ form .submit
     letter-spacing: 2px;
     height: 50px;
     margin-top: 20px;
+}
+
+form .submit:hover
+{
+    background-color: #f44336;
+    cursor: pointer;
 }
 
