@@ -1,1 +1,0 @@
-<a class="bbtn btn-dark px-5 py-2 primary-btn" href="http://nafi.epizy.com" role="button">After Login</a>
