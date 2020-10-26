@@ -67,7 +67,6 @@ header .nav-link:hover {
 header .row .col-md-7 {
   padding: 22vmin 1vmin;
   padding-bottom: 35vmin;
-   position: relative;
 }
 
 header .row .col-md-5 {
@@ -91,6 +90,7 @@ header .container .col-md-7 {
 header .container .col-md-7 h6 {
   padding: 1vmin;
   letter-spacing: 4px;
+  position: relative;
 }
 
 header .container .col-md-7 h1 {
