@@ -5,7 +5,7 @@
 
 header,
 section {
-  overflow-x: hidden;
+  overflow-x: scroll;
 }
 
 :root {
