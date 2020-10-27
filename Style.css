@@ -123,6 +123,7 @@ header .nav-link:hover {
 }
 .indicator div:nth-child(1) {
   transform: rotate(30deg) translateY(-70x);
+  background: red;
 }
 .indicator div:nth-child(2) {
   transform: rotate(60deg) translateY(-70px);
