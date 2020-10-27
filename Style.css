@@ -64,11 +64,6 @@ header .nav-link:hover {
   color: yellow;
 }
 
-
-*{
-  margin: 0;
-  padding: 0;
-}
 .clock{
   position: relative;
   display: flex;
