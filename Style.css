@@ -64,21 +64,13 @@ header .nav-link:hover {
   color: yellow;
 }
 
-body{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  background: #00a2ff;
-}
-
 .clock{
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 250px;
-  height: 250px;
+  width: 100px;
+  height: 100px;
   background: #e9fcfc;
   border-radius: 50%;
   border: 16px solid #303030;
