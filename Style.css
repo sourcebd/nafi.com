@@ -64,6 +64,14 @@ header .nav-link:hover {
   color: yellow;
 }
 
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #00a2ff;
+}
+
 .clock{
   position: relative;
   display: flex;
