@@ -122,43 +122,43 @@ header .nav-link:hover {
   background: #404040;
 }
 .indicator div:nth-child(1) {
-  transform: rotate(30deg) translateY(-113px);
+  transform: rotate(30deg) translateY(-50x);
 }
 .indicator div:nth-child(2) {
-  transform: rotate(60deg) translateY(-113px);
+  transform: rotate(60deg) translateY(-50px);
 }
 .indicator div:nth-child(3) {
-  transform: rotate(90deg) translateY(-113px);
+  transform: rotate(90deg) translateY(-50x);
   background: red;
 }
 .indicator div:nth-child(4) {
-  transform: rotate(120deg) translateY(-113px);
+  transform: rotate(120deg) translateY(-50px);
 }
 .indicator div:nth-child(5) {
-  transform: rotate(150deg) translateY(-113px);
+  transform: rotate(150deg) translateY(-50px);
 }
 .indicator div:nth-child(6) {
-  transform: rotate(180deg) translateY(-113px);
+  transform: rotate(180deg) translateY(-50px);
   background: red;
 }
 .indicator div:nth-child(7) {
-  transform: rotate(210deg) translateY(-113px);
+  transform: rotate(210deg) translateY(-50px);
 }
 .indicator div:nth-child(8) {
-  transform: rotate(240deg) translateY(-113px);
+  transform: rotate(240deg) translateY(-50px);
 }
 .indicator div:nth-child(9) {
-  transform: rotate(270deg) translateY(-113px);
+  transform: rotate(270deg) translateY(-50px);
   background: red;
 }
 .indicator div:nth-child(10) {
-  transform: rotate(300deg) translateY(-113px);
+  transform: rotate(300deg) translateY(-50px);
 }
 .indicator div:nth-child(11) {
-  transform: rotate(330deg) translateY(-113px);
+  transform: rotate(330deg) translateY(-50px);
 }
 .indicator div:nth-child(12) {
-  transform: rotate(360deg) translateY(-113px);
+  transform: rotate(360deg) translateY(-50px);
   background: red;
 }
 .sec-hand{
@@ -231,7 +231,7 @@ header .nav-link:hover {
   border-right: 3px solid transparent;
   border-bottom: 55px solid #303030;
   left: -3px;
-  top: -75px;
+  top: -50px;
   width: 1px;
   height: 1px;
 }
