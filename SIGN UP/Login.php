@@ -87,6 +87,7 @@ function test_input($data) {
   <style>
 h4{color:red}
 h5{color:#00E9FF}
+h6{color:white}
 </style>
   <?php
   if (!(empty($fname)||(!preg_match("/^[a-zA-Z-' ]*$/",$fname))))
@@ -114,6 +115,8 @@ h5{color:#00E9FF}
 <a href="http://nafi.epizy.com/Registration.php" style= "color:#00E9FF; font-family:calibri">Registration Form</a>
 </div>
 </b>
+
+<h6 style="font-size:10px; font-family: verdana; text-align: center"><?php include 'Footer/footer.php';?></h6>
 
 </div>
 </body>
