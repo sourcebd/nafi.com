@@ -128,7 +128,7 @@ header .nav-link:hover {
   transform: rotate(60deg) translateY(-70px);
 }
 .indicator div:nth-child(3) {
-  transform: rotate(90deg) translateY(-70x);
+  transform: rotate(90deg) translateY(-70px);
   background: red;
 }
 .indicator div:nth-child(4) {
