@@ -68,8 +68,8 @@ header .nav-link:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 103px;
-  height: 103px;
+  width: 100px;
+  height: 100px;
   background: #e9fcfc;
   border-radius: 50%;
   border: 16px solid #ffffff;
