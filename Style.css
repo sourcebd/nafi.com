@@ -73,7 +73,7 @@ header .nav-link:hover {
   height: 100px;
   background: #e9fcfc;
   border-radius: 50%;
-  border: 16px solid #303030;
+  border: 16px solid #ffffff;
   box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.8);
 }
 .clock:before{
