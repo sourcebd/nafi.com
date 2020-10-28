@@ -1,3 +1,3 @@
 <?php
-echo "<p>Copyright &copy; 1999-" . date("Y") . " NAFI.COM</p>";
+echo "<p style='text-align: center'>Copyright &copy; 1999-" . date("Y") ."<br>". " NAFI.COM</p>";
 ?>

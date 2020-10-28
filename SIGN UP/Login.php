@@ -2,12 +2,15 @@
 <html>
 <head>
 <title>Login</title>
+<meta name="viewport", content="width=device-width, initial-scale=1">
 </head>
 <style>
 div#LoginBlock{width:270px;border:5px solid #ddd;padding:10px;margin:auto;}
 body{background-image: url('G.jpg'); background-repeat:no-repeat; background-size:cover}
 </style>
 <body>
+
+<h6 style="font-size:10px; font-family: verdana; color: white"><?php include 'Header/header.php';?></h6>
 
 <div id="LoginBlock">
 
