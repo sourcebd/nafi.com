@@ -5,8 +5,8 @@
 <meta name="viewport", content="width=device-width, initial-scale=1">
 </head>
 <style>
-div#RegistrationBlock{width:270px;border:5px solid #ddd;padding:10px;margin:auto;}
-body{background-image: url('G.jpg'); background-repeat:no-repeat;  background-size:cover}
+div#RegistrationBlock{width:270px;border:5px solid #ddd;padding:10px;margin:auto}
+body{background-image: url('G.jpg'); background-repeat:no-repeat; background-size:cover}
 </style>
 <body>
 
@@ -19,78 +19,11 @@ body{background-image: url('G.jpg'); background-repeat:no-repeat;  background-si
 <div style="background-color: #0A0F48;color:#00E9FF; padding:0px;">
 
 <?php
-$fname = $lname = $password = $gender = $profession = $date = "";
-$fnameError = "";
-$lnameError = "";
-$passwordError = "";
-$genderError = "";
-$professionError = "";
-$dateError = "";
-$printfname = "";
-$printlname = "";
-$printpassword = "";
-$printgender= "";
-$printprofession = "";
 
+include('Registrationcheck.php');
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  $fname = test_input($_POST["fname"]);
-  $lname = test_input($_POST["lname"]);
-  $password = test_input($_POST["password"]);
-  $gender = test_input($_POST["gender"]);
-  $profession = test_input($_POST["profession"]);
-  $date = test_input($_POST["date"]);
-  if (empty($fname) || (!preg_match("/^[a-zA-Z-' ]*$/",$fname)))
-  {
-    $fnameError = "<p style ='color:red'>Please enter your First Name!</p>";
-  }
-  else
-  {
-    $printfname = $fname;
-  }
-
-  if (empty($lname)||(!preg_match("/^[a-zA-Z-' ]*$/",$lname)))
-  {
-    $lnameError = "<p style ='color:red'>Please enter your Last Name!</p>";
-  }
-  else
-  {
-   $printlname = $lname;
-  }
-
-  if (empty($password))
-  {
-    $passwordError = "<p style ='color:red'>Please make your Password!</p>";
-  }
-  else
-  {
-   $printpassword = $password;
-  }
-
-  if (empty($gender))
-  {
-    $genderError = "<p style ='color:red'>Please select your Gender!</p>";
-  }
-  else
-  {
-   $printgender = $gender;
-  }
-
-  if (empty($profession))
-  {
-    $professionError = "<p style ='color:red'>Please select your Profession!</p>";
-  }
-  else
-  {
-   $printprofession = $profession;
-  }
-}
-
-function test_input($data) {
-  $data = trim($data);
-  $data = stripslashes($data);
-  $data = htmlspecialchars($data);
-  return $data;
+if(isset($_SESSION['fname'])){
+header("location: RegistrationResult.php");
 }
 ?>
 </div>
@@ -122,7 +55,7 @@ function test_input($data) {
   <label for="birthday">Birthday:</label>
   <input type="date" id="fname" name="date" >
   <br><br>
-  <input type="submit" value="Submit">
+  <input type="submit" name="submit" value="Submit">
 
   <style>
 h4{color:red}
@@ -156,7 +89,7 @@ h6{color:white}
 
 </form> 
 <br>
-<a href="http://nafi.epizy.com/Login.php" style= "color:#00E9FF; font-family:calibri">Login Form</a>
+<a href="Login.php" style= "color:#00E9FF; font-family:calibri">Login Form</a>
 </div>
 </b>
 
