@@ -29,7 +29,7 @@ header("location: LoginResult.php");
 </div>
 
 <div style="background-color:#0A0F48;color:#00E9FF;padding:0px;font-family:calibri">
-<h1>Login Form</h1>
+<h1>Login</h1>
 </div>
 <b>
 <div style="background-image: url('F1.jpg');color:#B6FF00;padding:1px;">
@@ -74,7 +74,8 @@ h6{color:white}
 
 </form> 
 <br>
-<a href="Registration.php" style= "color:#00E9FF; font-family:calibri">Registration Form</a>
+<a href="Registration.php" style= "color:#00E9FF; font-family:calibri">Registration</a>
+<a href="sourcebd.github.io/nafi.com" style= "color:#00E9FF; font-family:calibri">Back</a>
 </div>
 </b>
 
