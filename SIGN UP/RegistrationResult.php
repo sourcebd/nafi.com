@@ -42,7 +42,9 @@ h6{color:white}
 ?><br>
 <h2 style="color: #B6FF00"><marquee direction=left>Do you want to go to </marquee></h2> <a href="RegIndex.php" style= "color:#00E9FF; font-family:calibri">Next Page</a>
 
-<h2 style="color: #B6FF00"><marquee direction=left>Do you want to</marquee></h2> <a href="Reglogout.php" style= "color:#00E9FF; font-family:calibri">Back</a>
+<h2 style="color: #B6FF00"><marquee direction=left>Do you want to go to </marquee></h2> <a href="Account.php" style= "color:#00E9FF; font-family:calibri">Back</a>
+
+<h2 style="color: #B6FF00"><marquee direction=left>Do you want to</marquee></h2> <a href="Reglogout.php" style= "color:#00E9FF; font-family:calibri">Log Out</a>
 
 <h6 style="font-size:10px; font-family: verdana; text-align: center"><?php include 'Footer/footer.php';?></h6>
 </b>
