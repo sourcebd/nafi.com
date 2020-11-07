@@ -121,10 +121,10 @@ h1{
 
 
 .colorchange{
-	animation:  colorchangethapa 1s infinite;
+	animation:  colorchangeNafi 1s infinite;
 }
 
-@keyframes colorchangethapa{
+@keyframes colorchangeNafi{
 	0%{color: red;}
 	25%{color:#bf55ec; ;}
 	50%{ color: white; }
