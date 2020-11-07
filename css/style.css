@@ -71,36 +71,54 @@ header{
 	/*border: 1px solid red;*/
 	top: 55%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+  transform: translate(-30%, -50%);
+}
 
+h2{
+ margin: 0px; padding: 0px;
+  white-space:nowrap;
+  overflow:hidden;
+  animation:typing 4s steps(35,end) infinite,
+            blink 1s infinite;
+	color: #fff;
+	font-size: 135%;  
+	word-spacing: 5px;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	
 }
 
 h1{
+ margin: 0px; padding: 0px;
+  white-space:nowrap;
+  overflow:hidden;
+  animation:typing 4s steps(35,end) infinite,
+            blink 1s infinite;
 	color: #fff;
 	font-size: 240%;  
 	word-spacing: 5px;
 	letter-spacing: 3px;
 	margin-bottom: 20px;
 	text-transform: uppercase;
-	font-weight: lighter;
+	
 }
 
 .btn{
 	display: inline-block;
 	padding: 10px 30px;
-	font-weight: lighter;
 	text-decoration: none;
 	text-transform: uppercase;
-	border-radius: 200px;
-	transition: background-color 0.2s, border 0.2s, color 0.2;
+	border-radius: 30px;
+	transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
 
 .btn-full{
-	background-color: transparent;
+	background-color: darkblue;
 	color: #00E9FF;
 	margin-right: 15px;
-	border: 1px solid #00E9FF;
+	border: 2px solid #00E9FF;
 }
 
 .btn-full:hover{
@@ -121,14 +139,18 @@ h1{
 
 
 .colorchange{
-	animation:  colorchangeNafi 1s infinite;
+	animation: typing 3s infinite, colorchangeNafi 3s infinite;
 }
 
+@keyframes typing{
+	0% { width:0% }
+  100% { width:100% }
+}
 @keyframes colorchangeNafi{
-	0%{color: red;}
-	25%{color:#bf55ec; ;}
-	50%{ color: white; }
-	100%{ color:#bf55ec;  }
+	0%{color: blue ;}
+	25%{color:violet;}
+	50%{ color:yellow ; }
+	100%{ color:orange;  }
 }
 
 .mobile-icon{display: none;}
@@ -158,7 +180,7 @@ h1{
 	.main-nav{display: none;}
 
 	.mobile-icon{ display: inline-block; 
-		color: #fff;
+		color: yellow;
 		float: right;
 		margin-top: 30px;
 		margin-right: 20px;
