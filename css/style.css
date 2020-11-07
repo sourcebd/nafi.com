@@ -98,13 +98,14 @@ h1{
 
 .btn-full{
 	background-color: transparent;
-	color: #bf55ec;
+	color: #00E9FF;
 	margin-right: 15px;
-	border: 1px solid #bf55ec;
+	border: 1px solid #00E9FF;
 }
 
 .btn-full:hover{
-	background-color: #fff;
+	background-color: #FFCC00;
+	color: black;
 }
 
 .btn-nav{
