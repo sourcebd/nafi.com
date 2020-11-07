@@ -106,6 +106,7 @@ h1{
 .btn-full:hover{
 	background-color: #FFCC00;
 	color: black;
+	border: 1px solid black;
 }
 
 .btn-nav{
