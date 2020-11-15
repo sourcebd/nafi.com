@@ -1,0 +1,13 @@
+How to run NAFI.COM Blog
+
+1. Download the the zip file
+2. Extract the file and copy Content folder
+3.Paste inside root directory(for xampp xamp/htdocs, for wampp/www, fpr lamp var/www/html)
+4. Create a database with name newsportal
+5. Import newsportal.sql file (given inside the zip package in sql file folder)
+6. Run the script: http://localhost/NAFI.COM/Content (frontend)
+7. For admin panel  http://localhost/NAFI.COM Blog/Content/admin
+
+credential for admin panel :
+username: admin
+Password : ####1996
